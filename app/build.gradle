@@ -31,4 +31,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+    implementation 'com.zoyi.channel:plugin-android:0.0.1'
+
+    // If you already set FCM in your project, skip this dependency.
+    implementation 'com.zoyi.channel:plugin-android-fcm:0.0.1'
 }
